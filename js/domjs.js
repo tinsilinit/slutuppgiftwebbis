@@ -19,6 +19,17 @@ function showDiv(n) {
    }
    imageArray[imageCounter - 1].style.display = "block";
 }
+
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+
+
+
+
  
 
 
